@@ -7,11 +7,11 @@ load_dotenv()
 API_ID = int(getenv("API_ID", 28390563))
 API_HASH = getenv("API_HASH", "b9f15e071dec42eedfc1954f12f53f2b")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
-OWNER_ID = int(getenv("OWNER_ID", "8327651421"))
+OWNER_ID = int(getenv("OWNER_ID", "6966002582"))
 MONGO_URL = getenv("MONGO_URL", None)
 SUPPORT_GRP = getenv("SUPPORT_GRP", "Thekmx")
 UPDATE_CHNL = getenv("UPDATE_CHNL", "Thekmx")
-OWNER_USERNAME = getenv("OWNER_USERNAME","@kmxertro")
+OWNER_USERNAME = getenv("OWNER_USERNAME","kmxretro")
 
 
 def validate_required_config() -> list[str]:
